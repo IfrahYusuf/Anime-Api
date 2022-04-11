@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+  }
+  
+  h1{
+    margin: 20px;
+    text-align: center;
+    border: solid black 5px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+  }
+
+  h2{
+      text-align: center;
+      margin: 0, auto;
+      font-family:'Permanent Marker', cursive; 
+      font-size: 2rem;
+  }
+ 
+  
+  input, button{
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+  }
+
+  body {
+      background-image: url(../backgroung\ image.jpg);
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
